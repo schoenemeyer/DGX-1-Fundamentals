@@ -31,6 +31,7 @@ https://developer.nvidia.com/deep-learning-performance-training-inference
 
 ## AMP
 Reduce runtimes with mixed precision (FP16/FP32)
+https://devblogs.nvidia.com/nvidia-automatic-mixed-precision-tensorflow/
 
 ## Your way from single GPU to multi GPU to multi GPU multi node
 http://on-demand.gputechconf.com/gtc-cn/2018/pdf/CH8209.pdf
