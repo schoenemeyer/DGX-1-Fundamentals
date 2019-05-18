@@ -7,7 +7,7 @@ All the information below is public.
 ## Install, Provisioning, Networking, NFS Mount  
 https://docs.nvidia.com/dgx/dgx1-user-guide/index.html
 
-https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG
+![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG)
 
 ## Learn how to use NGC
 https://docs.nvidia.com/dgx/ngc-registry-for-dgx-user-guide/index.html
