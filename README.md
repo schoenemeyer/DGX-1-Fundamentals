@@ -5,8 +5,8 @@ This quick guide is useful for clients that start working with NVIDIA DGX-1 and 
 All the information below is public.
 
 ## Install, Provisioning, Networking, NFS Mount  
-https://docs.nvidia.com/dgx/dgx1-user-guide/index.html
-or as pdf (May 2019)
+https://docs.nvidia.com/dgx/dgx1-user-guide/index.html    
+or as pdf (May 2019)    
 https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf
 
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG)
