@@ -14,8 +14,11 @@ https://docs.nvidia.com/dgx/ngc-registry-for-dgx-user-guide/index.html
 ## Go directly to NGC
 https://ngc.nvidia.com/catalog/landing
 
-## System Architecture
+## DGX-1 System Architecture
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html
+
+## V100 Architecture
+https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf
 
 ## DGX OS Server  
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html
