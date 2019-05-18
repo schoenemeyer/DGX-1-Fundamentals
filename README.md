@@ -1,7 +1,7 @@
 
 # DGX-1-Fundamentals  Quick User Guide 
 
-This quick guide is useful for clients that start working with NVIDIA DGX-1 and wnat to move forward as quick as possible.
+This quick guide is useful for clients that start working with NVIDIA DGX-1 and want to move forward as quick as possible.
 All the information below is public.
 
 ## Install, Provisioning, Networking, NFS Mount  
