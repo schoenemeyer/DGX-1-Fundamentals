@@ -2,7 +2,8 @@
 # DGX-1-Fundamentals  Quick User Guide 
 
 This quick guide is useful for clients that start working with NVIDIA DGX-1 and want to move forward as quick as possible.
-All the information below is public. There is also a 90sec video on youtube https://www.youtube.com/watch?v=fAZS4V2aolI to get a quick overview.    
+All the information below is public. There is also a 90sec video on youtube available for a quick overview      
+https://www.youtube.com/watch?v=fAZS4V2aolI. 
 
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/maxresdefault.jpg)
 
