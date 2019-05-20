@@ -22,6 +22,8 @@ https://ngc.nvidia.com/catalog/landing
 
 ## DGX-1 System Architecture
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html
+https://indico.desy.de/indico/event/21640/session/1/contribution/15/material/slides/0.pdf
+
 
 ## V100 Architecture
 https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf
