@@ -41,6 +41,16 @@ https://devblogs.nvidia.com/nvidia-automatic-mixed-precision-tensorflow/
 ## Your way from single GPU to multi GPU to multi GPU multi node
 http://on-demand.gputechconf.com/gtc-cn/2018/pdf/CH8209.pdf
 
+## Kubernetes
+Cluster deployment with Kubespray or DeepOps for large Cluster deployments
+https://github.com/kubernetes-sigs/kubespray
 
+## Use Polyaxon for traceable results
+
+Use Polyaxon for rproducible Result
+https://docs.polyaxon.com/concepts/tensorboards/
+
+and for hyperparameter research
+https://docs.polyaxon.com/concepts/tensorboards/
 
 
