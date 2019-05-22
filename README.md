@@ -12,6 +12,18 @@ https://docs.nvidia.com/dgx/dgx1-user-guide/index.html
 or as pdf (May 2019)    
 https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf
 
+General recommendation:   
+‣ Using a separate, firewalled subnet
+‣ Configuring a separate VLAN for BMC traffic if a dedicated network is not available
+Make sure proxy settings are done properly for the OS version.
+For Ubuntu 18.0.4: in diretory /etc/systemd/system/docker.service.d we need 3 files , http-proxy.conf, https-proxy.conf and no-proxy.conf.
+Make sure you can connect with http://security.ubuntu.com/ubuntu
+
+
+## Basic Health Checks 
+
+sudo nvsm show health
+
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG)
 
 ## Learn how to use NGC
