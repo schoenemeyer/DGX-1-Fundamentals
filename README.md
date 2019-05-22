@@ -42,6 +42,9 @@ https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whit
 ## DGX OS Server  
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html
 
+## Application Performance with multiple GPUs (and multiple nodes)
+https://github.com/horovod/horovod
+
 ## DGX Benchmarks
 https://developer.nvidia.com/deep-learning-performance-training-inference
 
