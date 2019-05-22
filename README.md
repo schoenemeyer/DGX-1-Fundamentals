@@ -53,8 +53,10 @@ https://devblogs.nvidia.com/nvidia-automatic-mixed-precision-tensorflow/
 http://on-demand.gputechconf.com/gtc-cn/2018/pdf/CH8209.pdf
 
 ## Kubernetes
-Cluster deployment with Kubespray or DeepOps for large Cluster deployments
+Cluster deployment with Kubespray (Open Source)
 https://github.com/kubernetes-sigs/kubespray
+or DeepOps (Open Sourced, supported by NVIDIA) for large-scale  DGX Cluster deployments
+https://github.com/NVIDIA/deepops
 
 ## Use Polyaxon for traceable results
 
