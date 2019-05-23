@@ -41,6 +41,8 @@ https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whit
 
 ## DGX OS Server  
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html
+The NVIDIA® DGX™ servers (DGX-1 and DGX-2) are shipped with DGX™ OS which incorporates the NVIDIA DGX software stack built upon the Ubuntu Linux distribution. Instead of running the Ubuntu distribution, you can run Red Hat Enterprise Linux onthe DGX system and take advantage of the advanced DGX features. Please see https://docs.nvidia.com/dgx/index.html. The full install guide as pdf:     
+https://docs.nvidia.com/dgx/pdf/dgx-rhel-install-guide.pdf
 
 ## Application Performance with multiple GPUs (and multiple nodes)
 https://github.com/horovod/horovod
