@@ -76,7 +76,7 @@ https://indico.desy.de/indico/event/21640/session/1/contribution/15/material/sli
 https://images.nvidia.com/content/volta-architecture/pdf/volta-architecture-whitepaper.pdf
 
 ## DGX OS Server  
-The current release information can be found here:      
+The current release information is 4.1 (May 2019) and can be found here:      
 https://docs.nvidia.com/dgx/dgx-os-server-release-notes/index.html     
 The NVIDIA® DGX™ servers (DGX-1 and DGX-2) are shipped with DGX™ OS which incorporates the NVIDIA DGX software stack built upon the Ubuntu Linux distribution. Instead of running the Ubuntu distribution, you can run Red Hat Enterprise Linux onthe DGX system and take advantage of the advanced DGX features. Please see https://docs.nvidia.com/dgx/index.html.    
 The full install guide as pdf:     
