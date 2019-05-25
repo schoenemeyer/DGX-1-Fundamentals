@@ -26,9 +26,13 @@ sudo netplan apply
 Visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
 
 Configuring a System Proxy in  
-
-
-Cinfigure Proxy for docker
+Make sure the following lines are present, using the parameters that apply to your network:
+```
+Acquire::http::proxy "http://<username>:<password>@<host>:<port>/"; 
+Acquire::ftp::proxy "ftp://<username>:<password>@<host>:<port>/"; 
+Acquire::https::proxy "https://<username>:<password>@<host>:<port>/";
+```
+Configure Proxy for docker
 
 For Ubuntu 18.0.4: in directory /etc/systemd/system/docker.service.d we need 3 files. If the directory does not exist, you have to create it.
 
