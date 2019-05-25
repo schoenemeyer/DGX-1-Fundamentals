@@ -8,24 +8,32 @@ https://www.youtube.com/watch?v=fAZS4V2aolI.
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/maxresdefault.jpg)
 
 ## Install, Provisioning, Networking, NFS Mount  
-https://docs.nvidia.com/dgx/dgx1-user-guide/index.html    
+The User Guide is available as web version: https://docs.nvidia.com/dgx/dgx1-user-guide/index.html    
 or as pdf (May 2019)    
 https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf
 
 General recommendation:   
 Use a separate, firewalled subnet and configure a separate VLAN for BMC traffic if a dedicated network is not available
 Make sure proxy settings are  properly set.     
-For Ubuntu 18.0.4: in diretory /etc/systemd/system/docker.service.d we need 3 files ,
+For Ubuntu 18.0.4: in directory /etc/systemd/system/docker.service.d we need 3 files. If the directory does not exist, you have to create it.
+
 1. http-proxy.conf, 
 2. https-proxy.conf 
 3. no-proxy.conf 
 
+Here is an example for http-proxy.conf
 ```
 [Service]
 Environment="HTTP_PROXY=http://proxy.example.com:80/"
 ```
+Test with 
+```
+docker run hello-world 
+```
 
 Make sure you can connect with http://security.ubuntu.com/ubuntu
+
+
 https://docs.docker.com/config/daemon/systemd/
 
 
