@@ -25,8 +25,8 @@ sudo netplan apply
 ```
 Visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
 
-Configuring a System Proxy in  
-Make sure the following lines are present, using the parameters that apply to your network:
+Configuring a System Proxy; in the file /etc/apt/apt.conf.d/proxy.conf we need the 
+following lines, using the parameters that apply to your network:
 ```
 Acquire::http::proxy "http://<username>:<password>@<host>:<port>/"; 
 Acquire::ftp::proxy "ftp://<username>:<password>@<host>:<port>/"; 
