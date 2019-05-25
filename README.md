@@ -14,9 +14,19 @@ https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide
 
 General recommendation:   
 Use a separate, firewalled subnet and configure a separate VLAN for BMC traffic if a dedicated network is not available
-Make sure proxy settings are done properly for the OS version.
-For Ubuntu 18.0.4: in diretory /etc/systemd/system/docker.service.d we need 3 files , http-proxy.conf, https-proxy.conf and no-proxy.conf.
+Make sure proxy settings are  properly set.     
+For Ubuntu 18.0.4: in diretory /etc/systemd/system/docker.service.d we need 3 files ,
+1. http-proxy.conf, 
+2. https-proxy.conf 
+3. no-proxy.conf 
+
+```
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:80/"
+```
+
 Make sure you can connect with http://security.ubuntu.com/ubuntu
+https://docs.docker.com/config/daemon/systemd/
 
 
 ## Basic Health Checks 
