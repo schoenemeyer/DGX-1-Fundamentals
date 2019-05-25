@@ -15,6 +15,15 @@ https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide
 General recommendation:   
 Use a separate, firewalled subnet and configure a separate VLAN for BMC traffic if a dedicated network is not available
 Make sure proxy settings are  properly set.     
+
+Be aware of the new network interface in ubuntu 18.04 
+sudo netplan generate (if there is no /etc/netplan/01-netcfg.yaml file)
+You have to edit this file and make changes according to the local network settings and then start 
+```
+sudo netplan apply
+```
+Visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
+
 For Ubuntu 18.0.4: in directory /etc/systemd/system/docker.service.d we need 3 files. If the directory does not exist, you have to create it.
 
 1. http-proxy.conf, 
@@ -32,8 +41,7 @@ docker run hello-world
 ```
 
 Make sure you can connect with http://security.ubuntu.com/ubuntu
-
-
+For questions regarding docker you can consult:
 https://docs.docker.com/config/daemon/systemd/
 
 
