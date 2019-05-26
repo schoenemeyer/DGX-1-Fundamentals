@@ -62,6 +62,9 @@ sudo nvsm show health
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG)
 
 ## Learn how to use NGC
+
+Typically you will use the DGX Family with a docker environment; it is installed with the OS per default. 
+You dont have to install anything else, as long as the docker environment is up and running.      
 With NGC you always get the latest and fastest implementation for your DGX hardware just in minutes    
 https://docs.nvidia.com/dgx/ngc-registry-for-dgx-user-guide/index.html
 
