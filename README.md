@@ -120,4 +120,11 @@ https://docs.polyaxon.com/concepts/tensorboards/
 and for hyperparameter research
 https://docs.polyaxon.com/concepts/tensorboards/
 
+## Need more local storage capacity
+
+no problem, NVIDIA has offerings with 5 major storage vendors, please visit for more details 
+
+https://blogs.nvidia.com/blog/2019/03/18/roi-ai-data-center-leaders-dgx-pod/
+
+
 
