@@ -62,7 +62,12 @@ sudo nvsm show health
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/dgx-1.JPG)
 
 ## Learn how to use NGC
+With NGC you always get the latest and fastest implementation for your DGX hardware just in minutes    
 https://docs.nvidia.com/dgx/ngc-registry-for-dgx-user-guide/index.html
+
+For individual frameworks please refer to the NVIDIA documentation    
+https://docs.nvidia.com/deeplearning/dgx/tensorflow-user-guide/index.html#custtf
+
 
 ## Go directly to NGC
 https://ngc.nvidia.com/catalog/landing
