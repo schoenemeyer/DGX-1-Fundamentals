@@ -63,7 +63,15 @@ and for https-proxy.conf
 [Service]
 Environment="HTTPS_PROXY=http://proxy.example.com:80/"
 ```
-Test with 
+Flush changes with 
+```
+systemctl daemon-reload
+```
+and restart Docker:
+```
+systemctl restart docker Test with 
+```
+Then start a basic docker test
 ```
 docker run hello-world 
 ```
