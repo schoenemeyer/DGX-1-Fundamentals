@@ -85,6 +85,11 @@ if you want to change the language settings, edit the file
 /etc/default/locale 
 and replace e.g. de_DE.UTF-8 by en-US.UTF-8 
 
+If you want to change the hostname , just type
+```
+hostnamectl set-hostname <newhostname>
+```
+
 ## Basic Health Checks 
 
 sudo nvsm show health
