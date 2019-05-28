@@ -67,9 +67,9 @@ Flush changes with
 ```
 systemctl daemon-reload
 ```
-and restart Docker:
+and restart Docker
 ```
-systemctl restart docker Test with 
+systemctl restart docker 
 ```
 Then start a basic docker test
 ```
