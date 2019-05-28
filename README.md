@@ -29,13 +29,13 @@ For further questions visit https://www.tecmint.com/configure-network-static-ip-
 
 2. System-wide Proxy Settings 
 
-Add System-wide Proxy Settings in /etc/environment    
-
-"http_proxy="http://<username>:<password>@<hostname>:<port>/"    "
-"https_proxy="http://<username>:<password>@<hostname>:<port>/"  "   
-"ftp_proxy="http://<username>:<password>@<hostname>:<port>/"    "
-"no_proxy="<pattern>,<pattern>,..."
-  
+Add System-wide Proxy Settings in /etc/environment  
+```
+http_proxy="http://<username>:<password>@<hostname>:<port>/"    
+https_proxy="http://<username>:<password>@<hostname>:<port>/"   
+ftp_proxy="http://<username>:<password>@<hostname>:<port>/"    
+no_proxy="<pattern>,<pattern>,...
+```  
 3. Configuring Proxy for APT
 
 Aptitude will not use the HTTP Proxy environment variables. Instead, it has its own configuration file where you can set your proxy.
