@@ -80,6 +80,10 @@ Make sure you can connect with http://security.ubuntu.com/ubuntu
 For questions regarding docker you can consult:
 https://docs.docker.com/config/daemon/systemd/
 
+## Locale Settings
+if you want to change the language settings, edit the file 
+/etc/default/locale 
+and replace e.g. de_DE.UTF-8 by en-US.UTF-8 
 
 ## Basic Health Checks 
 
