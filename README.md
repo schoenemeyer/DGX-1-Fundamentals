@@ -17,22 +17,35 @@ Use a separate, firewalled subnet and configure a separate VLAN for BMC traffic 
 Make sure proxy settings are  properly set.     
 ### Networking
 
-Basic Setting: Be aware of the new network interface in ubuntu 18.04 
-sudo netplan generate (if there is no /etc/netplan/01-netcfg.yaml file)
-You have to edit this file and make changes according to the local network settings and then start 
+1. Basic Setting: Be aware of the new network interface in ubuntu 18.04 
+
+If you go through the standard setup and provide  ip address, gateway, nameserver and domain name , you can proceed with proxy settings.
+If you have to change any details afterwards, you can edit /etc/netplan/01-netcfg.yaml. 
+To apply the changes, please use  
 ```
 sudo netplan apply
 ```
-Visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
+For further questions visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
 
-Configuring a System Proxy; in the file /etc/apt/apt.conf.d/proxy.conf we need the 
-following lines, using the parameters that apply to your network:
+2. System-wide Proxy Settings 
+
+System-wide Proxy Settings in /etc/environment 
+
+http_proxy="http://<username>:<password>@<hostname>:<port>/"
+https_proxy="http://<username>:<password>@<hostname>:<port>/"
+ftp_proxy="http://<username>:<password>@<hostname>:<port>/"
+no_proxy="<pattern>,<pattern>,...
+  
+3. Configuring Proxy for APT
+
+Aptitude will not use the HTTP Proxy environment variables. Instead, it has its own configuration file where you can set your proxy.
+Create a file /etc/apt/apt.conf.d/proxy.conf and add following lines, using the parameters that apply to your network:
 ```
 Acquire::http::proxy "http://<username>:<password>@<host>:<port>/"; 
 Acquire::ftp::proxy "ftp://<username>:<password>@<host>:<port>/"; 
 Acquire::https::proxy "https://<username>:<password>@<host>:<port>/";
 ```
-Configure Proxy for docker
+4. Configure Proxy for docker
 
 For Ubuntu 18.0.4: in directory /etc/systemd/system/docker.service.d we need 3 files. If the directory does not exist, you have to create it.
 
@@ -44,6 +57,11 @@ Here is an example for http-proxy.conf
 ```
 [Service]
 Environment="HTTP_PROXY=http://proxy.example.com:80/"
+```
+and for https-proxy.conf
+```
+[Service]
+Environment="HTTPS_PROXY=http://proxy.example.com:80/"
 ```
 Test with 
 ```
