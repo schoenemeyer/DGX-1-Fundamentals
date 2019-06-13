@@ -128,6 +128,21 @@ The NVIDIA® DGX™ servers (DGX-1 and DGX-2) are shipped with DGX™ OS which i
 The full install guide as pdf:     
 https://docs.nvidia.com/dgx/pdf/dgx-rhel-install-guide.pdf
 
+## System Management
+
+NVIDIA® System Management (NVSM) is a software framework for monitoring
+NVIDIA DGX™ nodes in a data center. It includes active health monitoring, system
+alerts, and log generation. It can be used as a standalone utility from the command line
+by system administrators.
+
+https://docs.nvidia.com/dgx/pdf/nvsm-user-guide.pdf
+
+## Power Management
+
+https://images.nvidia.com/content/tesla/pdf/Tesla-V100-PCIe-Product-Brief.pdf
+
+nvidia-smi is an in-band monitoring tool provided with the NVIDIA driver and can be used to set the maximum power consumption with driver running in persistence mode. An example command to enable Max-Q is shown (power limit 180 W):nvidia-smi -pm 1 nvidia-smi -pl 180.
+
 ## Application Performance with multiple GPUs (and multiple nodes)
 https://github.com/horovod/horovod
 
