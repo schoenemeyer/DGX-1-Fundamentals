@@ -148,6 +148,10 @@ https://github.com/horovod/horovod
 
 ## DGX Benchmarks
 https://developer.nvidia.com/deep-learning-performance-training-inference
+## V-100 Optimization Guidance
+http://on-demand.gputechconf.com/gtc/2018/presentation/s8630-what-the-profiler-is-telling-you.pdf
+https://docs.nvidia.com/cuda/volta-tuning-guide/index.html
+https://www.ks.uiuc.edu/Research/gpu/files/S8718-Robert-Knight-John-Stone.pdf
 
 ## AMP
 Reduce runtimes with mixed precision (FP16/FP32)   
