@@ -21,8 +21,19 @@ Make sure proxy settings are  properly set.
 
 If you go through the standard setup and provide  ip address, gateway, nameserver and domain name , you can proceed with proxy settings.
 If you have to change any details afterwards, you can edit /etc/netplan/01-netcfg.yaml. 
-To apply the changes, please use  
+
 ```
+  network:
+    version: 2
+    ethernets:
+      enp0s3:
+        addresses: [192.168.0.140/24]
+        gateway4: 192.168.0.1
+        nameservers:
+          addresses: [8.8.8.8,8.8.4.4]
+```
+```
+To apply the changes, please use  
 sudo netplan apply
 ```
 For further questions visit https://www.tecmint.com/configure-network-static-ip-address-in-ubuntu/ for more details
