@@ -74,6 +74,11 @@ and for https-proxy.conf
 [Service]
 Environment="HTTPS_PROXY=http://proxy.example.com:80/"
 ```
+and for no-proxy.conf
+```
+[Service]    
+Environment="NO_PROXY=localhost,127.0.0.1/"
+```
 Flush changes with 
 ```
 systemctl daemon-reload
