@@ -1,5 +1,5 @@
 
-# DGX-1-Fundamentals  Quick User Guide 
+# DGX-Fundamentals  Quick User Guide (DGX-1 and DGX-2 are similar regarding the install process)
 
 This quick guide is useful for clients that start working with NVIDIA DGX-1 and want to move forward as quick as possible.
 All the information below is public. There is also a 90sec video on youtube available for a quick overview      
@@ -8,9 +8,9 @@ https://www.youtube.com/watch?v=fAZS4V2aolI.
 ![After processing](https://github.com/schoenemeyer/DGX-1-Fundamentals/blob/master/figures/maxresdefault.jpg)
 
 ## Install, Provisioning, Networking, NFS Mount  
-The User Guide is available as web version: https://docs.nvidia.com/dgx/dgx1-user-guide/index.html    
-or as pdf (May 2019)    
-https://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf
+The User Guide is available as web version or as pdf     
+https://docs.nvidia.com/dgx/dgx1-user-guide/index.html    
+https://docs.nvidia.com/dgx/dgx2-user-guide/index.html
 
 General recommendation:   
 Use a separate, firewalled subnet and configure a separate VLAN for BMC traffic if a dedicated network is not available
